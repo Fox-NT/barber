@@ -1,0 +1,1179 @@
+/*Общие стили*/
+body { 
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    
+
+    background-image: url(../img/bg.png);
+    background-color: #000000;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    }
+h1 {
+    visibility: hidden;
+}
+
+.advantages h2 {
+    visibility: hidden;
+}
+
+ .button {
+    font: inherit;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    vertical-align: middle;
+    border: none;
+ }
+
+ .button:focus,
+ .button:hover,
+ .button:active {
+     background-color: #663d15;
+ }
+
+ .button:disabled {
+     background-color: #868686;
+ }
+
+.header-main {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nav-link,
+.nav-login {
+list-style: none;
+text-align: center;
+}
+
+.nav-link a,
+.nav-login a {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.advantages-list {
+list-style: none;
+}
+
+.advantages-item {
+    color: #f7f4f1;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.advantages h3 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.index-column {
+    background-color: #f9f6f3;
+    background-image: url(../img/main-bg.png);
+    background-position: 0 0;
+    background-repeat: repeat;
+
+    color: #000000;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.index-column h2 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.news-list {
+    list-style: none;
+}
+
+.news-list time {
+    text-transform: none;
+
+}
+
+.gallery-content {
+background-color: #8b8b8b;
+border: 7px solid #ffffff;
+}
+
+.gallery-block {
+    margin-top: 23px;
+    margin-bottom: 33px;
+}
+
+.appointment-item input {
+    font:inherit;
+
+    background-color:transparent;
+    border: 2px solid #000000;
+}
+
+.appointment-item input:hover,
+.appointment-item input:focus {
+    font:inherit;
+
+    background-color:transparent;
+    border: 2px solid #663d15;
+}
+
+.footer-main {
+    color: #ffffff;
+    background-color: #222222;
+    background-image: url(../img/footer-bg.png);
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+
+
+.footer-contacts a {
+    color:#ffffff;
+    text-decoration: underline;
+}
+.footer-contacts a:focus,
+.footer-contacts a:hover {
+    text-decoration: none;
+}
+
+.social-main {
+    text-align: center;
+}
+
+.social-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright .button:hover,
+.copyright .button:focus {
+    color:#000000;
+    
+    background-color: #ffffff;
+}
+/*Общие стили*/
+
+/*Шапка сайта*/
+.header-main {
+    margin-bottom: 70px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+
+}
+
+.visually-hidden {
+    visibility: hidden;
+}
+
+.navigation-main {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.main-header-logo {
+    width: 371;
+    height: 155;
+    order: 2;
+    
+}
+
+.nav-link {
+    list-style: none;
+    width: 690px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-login {
+    list-style: none;
+    width: 140px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link-wrapper {
+    width: 100%;
+    margin-bottom: 60px;
+    background-color:black;
+
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 0px;
+}
+
+.nav-link-a {
+ display: flex;
+ justify-content: start;
+ flex-wrap: wrap;
+}
+
+.info-a {
+    width: 88px;
+    padding: 26px 20px;
+}
+
+.news-a {
+    width: 58px;
+    padding: 26px 20px;
+}
+
+.price-a {
+    width: 84px;
+    padding: 26px 20px;
+}
+
+.shop-a {
+    width: 56px;
+    padding: 26px 20px;
+}
+
+.contacts-a {
+    width: 66px;
+    padding: 26px 20px;
+}
+
+.login-a {
+    width: 74px;
+    padding: 26px 20px;
+}
+
+.logo-a {
+    margin: auto 0;
+    margin-right: 20px;
+}
+
+.info-a:hover,
+.info-a:focus,
+.news-a:hover,
+.news-a:focus,
+.price-a:hover,
+.price-a:focus,
+.shop-a:hover,
+.shop-a:focus,
+.contacts-a:hover,
+.contacts-a:focus,
+.login-a:hover,
+.login-a:focus {
+background-color: #242424;
+}
+
+.current {
+    border-bottom: 2px solid white;
+}
+
+.current:hover,
+.current:focus {
+background-color: black;
+}
+
+.img-login {
+    width: 14px;
+    height: 12px;
+    margin: 0;
+    padding: 0;
+    margin-right: 15px;
+}
+
+.nav-link-wrapper .container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/*Шапка сайта*/
+
+/*Оснвной блок стай */
+.main-container {
+    width: 940px;
+    margin-bottom: 65px;
+}
+
+
+/*Преимущества*/
+.advantages-list {
+    list-style: none;
+    display: flex;
+ justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 80px;
+}
+
+.advantages-item {
+    width: 290px;
+    margin-right: 29px;
+}
+
+.cube {
+    height: 20px;
+    width: 20px;
+    transform: rotate(-45deg);
+    background-color:#ffffff;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 9.5px;
+    margin-bottom: 26px;
+}
+
+.nomargin {
+    margin-right: 5px;
+}
+/*Преимущества*/
+
+/*Новости и галерея*/
+.news-gallery {
+    margin-bottom: 36px;
+}
+
+.news-title h2, p {
+    padding: 0;
+    margin: 0;
+}
+
+.news-title h2 {
+    margin-bottom: 23px;
+}
+
+.news-1 {
+    margin-bottom: 20px;
+}
+
+.news-2 {
+    margin-bottom: 29px;
+}
+
+.index-column {
+    display: flex;
+        padding-top: 44px;
+}
+
+.news {
+    padding: 0;
+    padding-left: 80px;
+    padding-right: 35px;
+    width: 350px;
+}
+
+.news-list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.gallery {
+    padding: 0;
+    padding-left: 87px;
+    padding-right: 80px;
+    width: 300px;
+}
+
+.gallery-content {
+    margin: 0;
+    padding: 0;
+}
+
+.news-button {
+    width: 140px;
+    padding: 10px 0;
+    background-color:black;
+}
+
+.news-button:hover,
+.news-button:focus {
+background-color: #663d15;
+}
+
+.news-a-button {
+    margin-bottom: 50px;
+}
+
+.gallery-button-wrapper {
+    display: flex;
+    justify-content: start;
+    height: 44px;
+}
+
+.left-button {
+    margin-right: 20px;
+    width: 140px;
+}
+
+.gallery-button {
+    width: 300px;
+}
+
+.gallery-button button {
+    width: 100%;
+    height: 43px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+
+/*Новости*/
+
+/*Новости*/
+/*Новости и галерея*/
+
+/*Контакты и запись*/
+.contacts {
+    padding: 0;
+    padding-left: 80px;
+    padding-right: 65px;
+    width: 321px;
+}
+
+.reservation {
+    width: 300px;
+    padding: 0;
+    padding-left: 87px;
+    padding-right: 80px;
+
+}
+
+/*Форма записи*/
+.appointment-item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;;
+}
+
+.appointment-item input {
+    width: 119px;
+    height: 40px;
+    padding: 0;
+    padding-left: 17px;
+    
+    
+    color: #716f6e;
+}
+
+.label-name {
+    margin-top: 12px;
+    margin-left: 17px;
+    margin-bottom: 6px;
+}
+
+.text-data {
+    margin-right: 20px;
+}
+
+.text-name {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.button-reservation {
+    width: 300px;
+}
+
+.button-reservation button {
+    width: 100%;
+    height: 43px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.reservation h2{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+::-webkit-calendar-picker-indicator { 
+    display: none; 
+}
+
+.border-column {
+        width: 8px;
+        height: 278px;
+        margin-top: 75px 0;
+        margin-bottom: 63px;
+    }
+.border-column-1 {
+        width: 8px;
+        height: 278px;
+        margin-top: 75px 0;
+        margin-bottom: 63px;
+    }
+
+/*Форма записи*/
+
+/*Контактная информация*/
+.contacts h2 {
+    width: 321px;
+    margin-bottom: 17px;
+    text-align: left;
+}
+
+.contacts a {
+    font-size: 14px;
+    line-height: 24px;
+}
+.contacts-info p {
+    margin-bottom: 20px
+}
+
+.map-button {
+    width: 140px;
+    padding: 10px 0;
+    margin-right: 10px;
+    background-color:black;
+}
+
+.map-button:hover,
+.map-button:focus {
+background-color: #663d15;
+}
+.map-feedback {
+    display: flex;
+    justify-content: start;
+
+}
+.feedback-button {
+    width: 140px;
+    padding: 10px 0;
+    margin-left: 10px;
+    background-color:black;
+}
+
+.feedback-button:hover,
+.feedback-button:focus {
+background-color: #663d15;
+}
+
+.contacts-info {
+    margin-bottom: 30px;
+}
+
+.contacts-reservation {
+    height: 435px;
+}
+
+/*Контактная информация*/
+/*Контакты и запись*/
+
+/*Footer*/
+.footer-contacts {
+    width: 310px;
+    height: 108px;
+}
+
+.social-main {
+    width: 141px;
+    height: 81px;
+}
+
+.copyright {
+    width: 140px;
+    height: 43px;
+}
+
+.footer-wreapper {
+    margin-left: 0;
+}
+
+.social-main {
+    margin: 0 auto;
+    margin-right: 260px;
+}
+
+
+.social-list {
+    margin-top: 12px;
+}
+.copyright {
+    margin-left: auto;
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-flex {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.vk-flex {
+    width: 43px;
+    height: 43px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+
+.vk-img {
+    padding: 15px 7px 13px 9px;
+}
+
+.fc-img {
+ padding: 10px 16px 11px 16px;
+}
+
+.inst-img {
+    padding: 11px 10px 12px 13px;
+}
+
+.vk-img:hover,
+.fc-img:hover,
+.inst-img:hover,
+.vk-img:focus,
+.fc-img:focus,
+.inst-img:focus {
+    background-color: #663d15;
+}
+
+.copyright-button {
+    width: 140px;
+    height: 19px;
+    margin-top: 15px;
+    padding: 15px 0;
+    padding-top: 9px;
+    background-color:black;
+}
+
+.copyright-button:hover,
+.copyright-button:focus {
+background-color: #ffffff;
+color: black;
+}
+
+.footer-main .container {
+    padding-top: 60px;
+}
+
+.copyright {
+    margin-bottom: 50px;
+}
+
+.wrapper-copy {
+    margin-bottom: 53px;
+}
+
+
+/*Footer*/
+
+
+/*Прайс-лист страница*/
+.body-contacts { 
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #000000;
+    text-transform: uppercase;
+    
+
+    background-image: url(../img/main-bg.png);
+    background-color: #ffffff;
+    background-position: top center;
+    background-repeat: repeat;
+}
+
+.title1 {
+    text-align: center;
+    /* Тут можно добавить другие стили для заголовка */
+    font-size: 48px;
+    line-height: 48px;
+    width: 100%;
+    
+    overflow: hidden;
+    margin-bottom: 50px
+}
+.title1 h2 {
+    /* Стили тега обертки для заголовков 
+    ** в несколько строк */
+    margin: 5px 0; 
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.title1:before,
+.title1:after {
+    /* Обязательно указываем пустое свойство content, 
+    ** иначе псевдоэлементы не появятся на сайте */
+    content: "";
+    /* Указываем что наши линии будут строчно-блочные и 
+    ** выравнивание по высоте - по центру */
+    display: inline-block;
+    vertical-align: middle;
+    /* Задаем ширину 100% и выбираем высоту линии, 
+    ** в нашем примере она равна 4 пикселям */
+    width: 100%;
+    height: 2px;
+    /* Добавляем цвет для линии */
+    background-color: #000000;
+    /* Добавляем пседоэлемантам возможность изменить 
+    ** позицию линии, для создания отступов от текста */
+    position: relative;
+    
+}
+.title1:before {
+    /* Смещаем левую линию на 100% влево, чтобы линия 
+    ** встала рядом с текстом слева */
+    margin-left: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    left: -27px;
+}
+.title1:after {
+    /* Смещаем правую линию на 100% вправо, чтобы 
+    ** линия встала рядом с текстом справа */
+    margin-right: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    right: -27px;
+}
+
+
+.body-price { 
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #000000;
+    text-transform: uppercase;
+    
+
+    background-image: url(../img/main-bg.png);
+    background-color: #fffdfa;
+    background-position: top center;
+    background-repeat: repeat;
+}
+
+.body-price .nav-link-wrapper,
+.body-price .header-main {
+    margin-bottom: 51px;
+}
+.body-price .navigation-main {
+    height: 75px
+}
+
+.squad {
+    height: 7px;
+    width: 7px;
+    transform: rotate(-45deg);
+    background-color:#000000;
+    margin: auto 14px;
+    padding: 0;
+}
+
+.body-price h1 {
+    visibility: visible;
+}
+
+.body-price h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.navigation-page {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.navigation-page a {
+    color: #000;
+}
+
+.navigation-page a:hover,
+.navigation-page a:focus {
+    color: #663d15;
+}
+
+.current-page {
+    color: #aba9a7;
+}
+
+.title-page {
+    margin-bottom: 19.5px;
+}
+
+.product-list {
+    list-style-image: url(../img/squad.png);
+    margin: 0;
+    padding: 0;
+    padding-left: 17px;
+}
+.product-list li {
+    margin-bottom: 19px
+}
+
+.product h2 {
+    width: 240px;
+    margin-bottom: 29px
+}
+
+.price h2 {
+    width: 174px;
+    margin-bottom: 32px;
+}
+
+.table-price {
+    border: 2px solid black;
+    width: 462px;
+    border-collapse: collapse;
+
+    
+}
+
+tr, td {
+    width: 231px;
+    height: 43px;
+    border: 2px solid rgb(0, 0, 0);
+    padding-left: 19px;
+
+}
+
+.price-td {
+    width: 38px;
+    padding-left: 98px;
+    padding-right: 93px;
+       }
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 61px;
+}
+
+.about h2 {
+    width: 226px;
+    margin-bottom: 29.6px;
+}
+
+.about {
+    display: flex;
+}
+
+.about-1 {
+    width: 379.8px;
+}
+
+.about-2 {
+    padding: 60px;
+    padding-left: 97px;
+    width: 379.8px;
+}
+
+
+/*Прайс-лист страница*/
+
+/*Магазин*/
+.product-content h2 {
+    margin-bottom: 26px;
+}
+
+.product-content p {
+    margin-bottom: 6px;
+}
+
+.product-content .last {
+    margin-bottom: 42.5px;
+}
+
+/*Кастомный чекбокс*/
+.product-content label {
+    margin: 0;
+}
+
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+
+  .custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  .custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 23px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 2px solid #000000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+
+  .custom-checkbox:checked+label::before {
+    background-image: url(../img/cross.svg);
+    background-size: 10px 10px;
+  }
+
+  .custom-radio {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+
+  .custom-radio+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+
+  .custom-radio+label::before {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    margin-right: 23px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+
+  .custom-radio:checked+label::before {
+    border-color: #000000;
+    background-image: url(../img/cirk.png);
+  }
+
+  .button-shop {
+    width: 112px;
+}
+
+.button-shop button {
+    width: 100%;
+    height: 43px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.item-1 {
+    width: 220px;
+    height: 286px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    margin-right: 20px;
+    margin-bottom: -55px
+}
+
+.item-1 p {
+    margin-bottom: 0;
+    padding-left: 16px;
+}
+
+.title-box {
+    text-transform: none;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.item-img {
+    height: 165px;
+    margin-bottom: 10px;
+}
+
+.item-title {
+    background-color:#ffffff;
+    margin-bottom: 10px;
+}
+
+.price-item {
+    width: 109px;
+    height: 33px;
+    margin-left: 16px;
+    background-color:rgb(223, 223, 223);
+    padding-top: 10px;
+}
+
+.price-number {
+    padding: 0;
+    text-align: center;
+}
+
+.item-buy {
+    background-color: black;
+    color: white;
+    width: 78px;
+    height: 43px;
+}
+
+.item-buy p {
+    padding-top: 9px;
+    padding-left: 17px;
+}
+
+.item-buy:focus,
+.item-buy:hover {
+    background-color: #663d15;
+}
+
+.item-body {
+    display: flex;
+    background-color: white;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    height: 729px;
+    margin: 0;
+    padding: 0;
+}
+
+.item-1 {
+    height: 286px;
+    background-color: white;
+}
+
+.shop-body {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.product-content {
+    width: 168px;
+    margin-right: 72px;
+}
+
+.container-shop {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 0px;
+}
+
+.group-item {
+    width: 168px
+}
+
+.page {
+    width: 43px;
+    height: 43px;
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-right: 7px;
+}
+
+.page-switch {
+    display: flex
+}
+
+.page p {
+padding-top: 8px
+}
+
+.page:hover,
+.page:focus,
+.current-page-bottom {
+    background-color:white;
+    color: black;
+}
+
+
+/*Кастомный чекбокс*/
+/*Магазин*/
+
+
+/*Страница товара*/
+.item-page .navigation-page {
+    margin: 0;
+    margin-bottom: 55px;
+}
+
+.item-gallery {
+    width: 460px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 89px;
+}
+
+.big-pic {
+    margin-bottom: 10px;
+}
+.small-pic {
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    margin-bottom: 50px;
+}
+
+.item-main {
+    display: flex;
+}
+
+.available {
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: ;
+}
+
+.article {
+    color: #aba9a7;
+    margin-bottom: 29px;
+}
+
+.item-decription {
+    margin-bottom: 42px;
+}
+
+.description .item-body {
+    width: 187px;
+    background-color: none;
+    margin-bottom: 61px;
+}
+
+.description .price-item {
+    width: 109px;
+    margin: 0;
+}
+
+.description .item-buy {
+    width: 78px;
+}
+
+.composition p {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.composition li {
+    margin: 0;
+}
+/*Страница товара*/
